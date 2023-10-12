@@ -6,10 +6,10 @@ Di tugas ini penugasan berupa pengimplementasian convulusi dari 2 dimensional si
 signal1 = [1, 3, 5, 7]
 signal2 = [0.5, 0.5, 0.5]
 
-#Operasi Convulution tanpa menggunakan numpy
-def convolution(arr1, arr2):    ]
-    m, n = len(arr1), len(arr2) ] -> Digunakan untuk mendefisinikan bagaimana convulusi bergerak, setiap kali operasi dijalankan, maka ruang perpotongan antara signal 1                                     2 berkurang  
-    result = [0] * (m + n - 1)  ]
+#Operasi Convulution tanpa menggunakan numpydef 
+ [   convolution(arr1, arr2):    
+    m, n = len(arr1), len(arr2)]  -> Digunakan untuk mendefisinikan bagaimana convulusi bergerak, setiap kali operasi dijalankan, maka ruang perpotongan antara signal 1                                     2 berkurang  
+   [ result = [0] * (m + n - 1)]  
 
     for i in range(m):                          ]
         for j in range(n):                      ] --> Digunakan untuk bagaimana operasi convlusi dijalnkan dimana nilai yang perpotongan akan dikalian
